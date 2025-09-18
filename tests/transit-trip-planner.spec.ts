@@ -284,8 +284,6 @@ test.describe("Transit App Trip Planner Tests", () => {
   test.setTimeout(120000); // Reduced from 180s
 
   test.use({
-    geolocation: { latitude: 45.5017, longitude: -73.5673 },
-    permissions: ["geolocation"],
     userAgent:
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
     viewport: { width: 1920, height: 1080 }, // Increased from 1280x720
